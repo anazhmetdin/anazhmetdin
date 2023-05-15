@@ -15,3 +15,9 @@ In this application I was responsible developing the seller interface. I integra
 Order items could be expanded:
 
 ![Order Items](./Images/order_items.png)
+
+Also, I used Chart.js to create some informative graphs for the seller to evaluate his performance over time:
+
+![Seller Stats 1](./Images/seller_stats1.png)
+
+![Seller Stats 1](./Images/seller_stats2.png)
