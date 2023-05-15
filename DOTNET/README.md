@@ -21,3 +21,13 @@ Also, I used Chart.js to create some informative graphs for the seller to evalua
 ![Seller Stats 1](./Images/seller_stats1.png)
 
 ![Seller Stats 1](./Images/seller_stats2.png)
+
+I also created an easy to use interface to manage the seller's items with quick controls such as filter, apply sales, and change availability.
+
+![Menu Control](./Images/Menu_controls.gif)
+
+[HQ Video](https://drive.google.com/file/d/1mk3kSelXGrkSJf0CIvZm77aySx6UHy0q/view)
+
+Finally, I added a section in the customer homepage to display trending sellers (those with the highest order rates in the last few days). This section is updated regularly using a timed hosted service that runs in the background.
+
+![Trending Sellers](./Images/trending_sellers.png)
