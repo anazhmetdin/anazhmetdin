@@ -11,6 +11,4 @@ In this application I was responsible developing the seller interface. I integra
 Order items could be expanded:
 
 
-```
 ![Order Items](./Images/order_items.png)
-```
