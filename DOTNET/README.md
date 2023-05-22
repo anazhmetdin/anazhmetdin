@@ -3,6 +3,7 @@
 - [.NET Projects](#net-projects)
   - [ASP.NET Core MVC](#aspnet-core-mvc)
   - [ASP.NET Core Web API](#aspnet-core-web-api)
+  - [WPF .NET](#wpf-net)
 
 ## ASP.NET Core MVC
 
@@ -87,3 +88,36 @@ In the "Seetour" project, I was the scrum master who managed our sprints and con
 ![Admin Posting Requests](./Images/seetour_admin_posts.png)
 ![Admin Form Posting Requests](./Images/seetour_admin_accept_posts.png)
 ![Admin Applicants](./Images/seetour_admin_applicants.png)
+
+## WPF .NET
+
+[Hotel Management](https://github.com/anazhmetdin/hotelmanagement)
+
+This project was developed using EF Core with code-first approach. I designed a well-structured and normalized database that effectively stored guest information, room details, payment records, and more. To enhance the user experience, I developed a user interface using WPF, ensuring seamless navigation through the data. To achieve a cohesive and professional aesthetic, I implemented customized control styling consistently across the application.
+
+- Login window
+![Login](./Image/../Images/hotel/login.gif)
+
+- Returning customers' data is loaded automatically using their SSN
+![Customer Search](./Images/hotel/customer_search.gif)
+
+- Available rooms are loaded dynamically using new reservation info and the existing reservations
+![Select Reservation Room](./Images/hotel/select_rooms_dinamically.gif)
+
+- Returning Customers' payment information is loaded when they pay for a new reservation
+![Payment](./Images/hotel/payment.gif)
+
+- All data could be searched using a single query
+![Universal Search](./Images/hotel/search.gif)
+
+- Reserved rooms and occupied rooms (checked in) could be viewed in one place.
+![Rooms Availability](./Images/hotel/rooms.png)
+
+- Active reservations are loaded dynamically in the main tab
+![Active Reservations](./Images/hotel/old_reservations.gif)
+
+- All reservations could be viewed in a doubly-bound grid view
+![Grid View](./Images/hotel/grid.gif)
+
+- Room service could also login to the application and view their to-do list
+![Room service login](./Images/hotel/kitchen.gif)
