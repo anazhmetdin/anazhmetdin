@@ -48,3 +48,31 @@ In the "Seetour" project, I was the scrum master who managed our sprints and con
 - Designed and developed the login page in Angular, providing an intuitive and user-friendly interface for users to authenticate and access the system.
 
 ![Login Page](./Images/seetour_login.png)
+
+- Implemented the trending section, which displays the top liked, wishlisted, and booked tours based on user activity within the past few days. This feature enhances the user experience by showcasing popular and trending tours. This list is updated daily on the api server using a timed hosted service that I created also.
+
+![Trending Section](./Images/seetour_trending.png)
+
+- Created a comprehensive tours browser that allows users to search for specific tours using a query, as well as apply filters based on various criteria such as price, tour guide rating, category, date, location, and more. This functionality enables users to easily find tours that match their preferences.
+
+![Tours Search](./Images/seetour_search.png)
+![Tours Filter](./Images/seetour_filter.png)
+
+- Integrated the ability to sort tours within the browser based on different properties, such as price, rating, or any other relevant attribute. Moreover, I implemented a customizable sorting feature that allows users to change the priority of sorting criteria, such as prioritizing price or rating first, based on their individual preferences.
+
+![Tours Sorter](./Images/seetour_sort.png)
+
+- All the previously mentioned browser features are reflected in the query parameters, so that the user can search the link with other people to sea the same exact result he got.
+- Developed a favorites functionality that allows customers to add tour guides to their favorites list. This feature enables users to follow the upcoming tours of their preferred tour guides in a separate section, providing a personalized experience.
+
+![Customer favorite tour guide](./Images/seetour_customer_TG_profile.png)
+![Tours from favorite tour guides](./Images/seetour_customer_favorites.png)
+
+- Created a centralized page where customers can manage their cart and booked tours. This page allows users to conveniently book tours from their cart, remove tours, cancel bookings, review completed tours, and view a list of their cancelled tours. This comprehensive tour management page simplifies the process for users to handle their tour reservations efficiently.
+
+![Customer cart](./Images/seetour_customer_cart.png)
+![Customer completed tours](./Images/seetour_customer_completed_tours.png)
+
+- Customers can review their completed tours in the same page using a simple form where they can upload multiple photos from their trip. the can see the uploaded photos and add to them or remove some of them easily.
+
+![Customer review completed tours](./Images/seetour_customer_review.png)
