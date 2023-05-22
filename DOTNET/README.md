@@ -1,6 +1,8 @@
 # .NET Projects
 
-* [ASP.NET Core MVC](#aspnet-core-mvc)
+- [.NET Projects](#net-projects)
+  - [ASP.NET Core MVC](#aspnet-core-mvc)
+  - [ASP.NET Core Web API](#aspnet-core-web-api)
 
 ## ASP.NET Core MVC
 
@@ -31,3 +33,18 @@ Moreover, I designed and implemented a user-friendly interface for efficient man
 Finally, I added a section in the customer homepage to display trending sellers (those with the highest order rates in the last few days). This section is updated regularly using a timed hosted service that runs in the background.
 
 ![Trending Sellers](./Images/trending_sellers.png)
+
+## ASP.NET Core Web API
+
+[Seetour API](https://github.com/anazhmetdin/SeetourAPI)
+[Seetour UI](https://github.com/eman120/SeetourUI)
+
+In the "Seetour" project, I was the scrum master who managed our sprints and contributed to various aspects, including:
+
+- Designed the database schema for the project and utilized a Python script to populate it with realistic mock data.
+- Managed the integration of external services, such as the Google Maps API and Azure Storage account, ensuring the secure handling of associated secrets.
+- Implemented policy-based authorization throughout the ASP.NET Core Web API, ensuring access control and security measures were enforced consistently across the application.
+- Developed an interceptor in Angular to seamlessly handle the login JWT token, facilitating secure authentication and authorization processes.
+- Designed and developed the login page in Angular, providing an intuitive and user-friendly interface for users to authenticate and access the system.
+
+![Login Page](./Images/seetour_login.png)
