@@ -1,12 +1,12 @@
 # .NET Projects
 
-* [ASP.NET Core MVC](#ASP.NET-Core-MVC)
+* [ASP.NET Core MVC](#aspnet-core-mvc)
 
 ## ASP.NET Core MVC
 
 [Food Delivery Web Application](https://github.com/anazhmetdin/FoodDeliveryWebApp)
 
-In this application I was responsible developing the seller interface. I integrated ASP.NET Core SignalR to push notifications of live orders.
+In this application, my primary responsibility was to develop the seller interface. As part of this role, I successfully integrated ASP.NET Core SignalR to enable real-time push notifications for live orders.
 
 ![Live Notifications](./Images/SignalR_Notifications.gif)
 
@@ -16,13 +16,13 @@ Order items could be expanded:
 
 ![Order Items](./Images/order_items.png)
 
-Also, I used Chart.js to create some informative graphs for the seller to evaluate his performance over time:
+Additionally, I utilized Chart.js to create visually appealing and informative graphs, providing sellers with valuable insights into their performance over time.
 
 ![Seller Stats 1](./Images/seller_stats1.png)
 
 ![Seller Stats 1](./Images/seller_stats2.png)
 
-I also created an easy to use interface to manage the seller's items with quick controls such as filter, apply sales, and change availability.
+Moreover, I designed and implemented a user-friendly interface for efficient management of a seller's items, incorporating quick and intuitive controls like filters, sales application, and availability modification. These controls are used alongside a fixed header at the top with anchor links to all available categories.
 
 ![Menu Control](./Images/Menu_controls.gif)
 
