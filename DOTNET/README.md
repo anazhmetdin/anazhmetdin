@@ -76,3 +76,14 @@ In the "Seetour" project, I was the scrum master who managed our sprints and con
 - Customers can review their completed tours in the same page using a simple form where they can upload multiple photos from their trip. the can see the uploaded photos and add to them or remove some of them easily.
 
 ![Customer review completed tours](./Images/seetour_customer_review.png)
+
+- Tour Guides can visit their own profiles to view their own upcoming and past tours plus all of the reviews they got from their customers.
+
+![Tour Guide Profile](./Images/seetour_TG_profile.png)
+![Tour Guide Profile Overview](./Images/seetour_TG_overview.png)
+
+- Finally, I developed a part of the admin controls that enables controlling posting requests and tour guides' applicantions to be a partner with Seetour.
+
+![Admin Posting Requests](./Images/seetour_admin_posts.png)
+![Admin Form Posting Requests](./Images/seetour_admin_accept_posts.png)
+![Admin Applicants](./Images/seetour_admin_applicants.png)
