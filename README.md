@@ -6,3 +6,4 @@ Here are some samples of my work:
 
 * [.NET](./DOTNET)
 * [Node.js - AWS](./NODEJS)
+* [Bioinformatics](./BIOINFORMATICS)
