@@ -5,8 +5,10 @@
     - [Images Processing API](#images-processing-api)
     - [Storefront API](#storefront-api)
   - [AWS Projects](#aws-projects)
+    - [Deploying a Full-Stack Application](#deploying-a-full-stack-application)
 
 ## Node.js Projects
+
 ### Images Processing API
 
 [GitHub Repo](https://github.com/anazhmetdin/ImgsAPI)
@@ -36,3 +38,31 @@ Example of the Images endpoint
 - Some Endpoints require authorization like placing an order.
 
 ## AWS Projects
+
+### Deploying a Full-Stack Application
+
+[GitHub Repo](https://github.com/anazhmetdin/deployment-process)
+
+- This project demonstrates successful deployment and integration of the frontend and backend components on AWS.
+- The deployment process was automated using AWS CLI and auto-started by setting up a CD/CI pipeline on CircleCI.
+- All secrets were handled profissionally and passed through enviromnt variables on each platform to maximize the application security.
+
+Pipeline:
+
+1. Push Commits to GitHub
+2. Trigger CircleCI Workflow
+3. Install node and checkout code
+4. Install dependencies (Front-end & Backend)
+5. Build (Front-end & API)
+6. Deploy API to Elastic Beanstalk
+7. Deploy UI to S3
+
+![Pipleline](./Images/Deployment/pipeline.png)
+
+Infrastructure Description:
+
+- AWS RDS: Database Server [PostgreSQL]
+- AWS S3: Frontend
+- AWS Elastic Beanstalk: Backend
+
+![Deployment Diagram](./Images/Deployment/architecture_diagram.png)
